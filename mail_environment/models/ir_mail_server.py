@@ -17,7 +17,6 @@ class IrMailServer(models.Model):
             "smtp_user": {},
             "smtp_pass": {},
             "smtp_encryption": {},
-            "smtp_authentication": {},
         }
         mail_fields.update(base_fields)
         return mail_fields

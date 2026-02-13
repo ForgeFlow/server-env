@@ -9,18 +9,10 @@ Example of config file ::
   smtp_port = 587
   smtp_user = example@gmail.com
   smtp_encryption = starttls
-  smtp_authentication = gmail
+  use_google_gmail_service = True
   google_gmail_authorization_code = YOUR_ACCOUNT_AUTH_CODE
   google_gmail_refresh_token = YOUR_REFRESH_TOKEN
 
-  [incoming_mail.gmail_imap_server]
-  server_type = gmail
-  smtp_host = imap.gmail.com
-  smtp_port = 993
-  user = example@gmail.com
-  is_ssl = 1
-  google_gmail_authorization_code = YOUR_ACCOUNT_AUTH_CODE
-  google_gmail_refresh_token = YOUR_REFRESH_TOKEN
 
 
 These two are global parameters, in core they're configured in General Settings:

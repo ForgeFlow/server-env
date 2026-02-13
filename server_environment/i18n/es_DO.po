@@ -71,7 +71,6 @@ msgstr ""
 
 #. module: server_environment
 #: model:ir.model.fields,field_description:server_environment.field_server_env_mixin__server_env_defaults
-#: model:ir.model.fields,field_description:server_environment.field_server_env_techname_mixin__server_env_defaults
 msgid "Server Env Defaults"
 msgstr ""
 
@@ -267,11 +266,6 @@ msgid "odoo | limit_time_real_cron"
 msgstr ""
 
 #. module: server_environment
-#: model:ir.model.fields,field_description:server_environment.field_server_config__odoo_I_limit_time_worker_cron
-msgid "odoo | limit_time_worker_cron"
-msgstr ""
-
-#. module: server_environment
 #: model:ir.model.fields,field_description:server_environment.field_server_config__odoo_I_list_db
 msgid "odoo | list_db"
 msgstr ""
@@ -334,11 +328,6 @@ msgstr ""
 #. module: server_environment
 #: model:ir.model.fields,field_description:server_environment.field_server_config__odoo_I_pidfile
 msgid "odoo | pidfile"
-msgstr ""
-
-#. module: server_environment
-#: model:ir.model.fields,field_description:server_environment.field_server_config__odoo_I_pre_upgrade_scripts
-msgid "odoo | pre_upgrade_scripts"
 msgstr ""
 
 #. module: server_environment
